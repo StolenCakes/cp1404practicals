@@ -11,6 +11,8 @@ You do NOT need to write a different function to determine the result for the ra
 If you've written your new function properly, you can use it.
 If you've breached SRP, then you'll see that you can't.
 """
+import random
+
 MINIMUM_SCORE = 0
 MAXIMUM_SCORE = 100
 EXCELLENT_THRESHOLD = 90
@@ -20,6 +22,11 @@ def main():
     user_score = float(input("Enter your score: "))
     user_result = get_result(user_score)
     print(f"Your result: {user_result}")
+
+    # Generate a random score
+    random_score = random.uniform(MINIMUM_SCORE, MAXIMUM_SCORE)
+    random_result = get_result(random_score)
+    print(f"Random score: {random_score}\nResult: {random_result}")
 
 def get_result(user_score):
     """Return the result based on the given score."""
