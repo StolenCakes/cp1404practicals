@@ -7,9 +7,12 @@ Important: Remember SRP - functions should do one thing, so these should be simp
 Do not get user input or print output in the functions - do those things outside.
 """
 CELSIUS_MODIFIER = 33.8  # value of 9.0 / 5 + 32
+MENU = """C - Convert Celsius to Fahrenheit
+F - Convert Fahrenheit to Celsius
+Q - Quit"""
 
 def main():
-    menu()
+    print(MENU)
     choice = get_choice()
     while choice != "Q":
         if choice == "C":
@@ -22,16 +25,9 @@ def main():
             print(f"Result: {result:.2f} C")
         else:
             print("Invalid option.")
-        menu()
+        print(MENU)
         choice = get_choice()
     print("Thank you.")
-
-def menu():
-    """Function docstring"""
-    MENU = """C - Convert Celsius to Fahrenheit
-F - Convert Fahrenheit to Celsius
-Q - Quit"""
-    print(MENU)
 
 def celsius_to_fahrenheit(celsius):
     """Convert Celsius to Fahrenheit"""
