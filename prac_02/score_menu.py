@@ -1,6 +1,6 @@
 """
 CP1404/CP5632 - Practical
-Program for score menu
+Program for score menu with various options
 
 Write a complete Python program following the standard structure that uses a main and other functions.
 Use a main menu following the standard menu pattern.

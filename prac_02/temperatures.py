@@ -1,6 +1,6 @@
 """
 CP1404/CP5632 - Practical
-Program for temperature conversion
+Program for temperature conversion both Celsius and Fahrenheit
 
 Use 2 functions (NOT one!) for converting Celsius to Fahrenheit and vice versa.
 Important: Remember SRP - functions should do one thing, so these should be simple calculation functions.

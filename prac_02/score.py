@@ -1,6 +1,6 @@
 """
 CP1404/CP5632 - Practical
-Program for generating results based on scores
+Program for generating results based on scores, both user input and random
 
 Copy broken_score.py from prac 1 and rename it to score.py, then commit.
 
