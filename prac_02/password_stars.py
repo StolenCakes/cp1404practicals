@@ -1,5 +1,7 @@
 """
 CP1404/CP5632 - Practical
+Program for password conversion
+
 Write a program that asks the user for a password, with error-checking to repeat if the password doesn't meet a minimum length set by a variable.
 The program should then print asterisks as long as the word.
 """

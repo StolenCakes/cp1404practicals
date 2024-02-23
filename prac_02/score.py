@@ -1,5 +1,7 @@
 """
 CP1404/CP5632 - Practical
+Program for generating results based on scores
+
 Copy broken_score.py from prac 1 and rename it to score.py, then commit.
 
 Your main function should ask the user for their score and print the result.
