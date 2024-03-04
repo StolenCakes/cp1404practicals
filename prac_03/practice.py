@@ -1,4 +1,4 @@
-with open("practicefilewk3.txt") as in_file:
+with open("practice_file_wk3.txt") as in_file:
     for line in in_file:
         part = line.strip().split(",")
         name = part[0]
