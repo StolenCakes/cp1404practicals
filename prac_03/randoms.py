@@ -1,4 +1,7 @@
 """
+CP1404/CP5632 - Practical
+Using random in various ways
+
 help(random.randint)
 Help on method randint in module random:
 randint(a, b) method of random.Random instance
