@@ -11,6 +11,7 @@ Original get_data()
         parts[2] = int(parts[2])  # Make the number an integer (ignore PyCharm's warning)
         print(parts)  # See if that worked
         print("----------")
+
 """
 
 FILENAME = "subject_data.txt"

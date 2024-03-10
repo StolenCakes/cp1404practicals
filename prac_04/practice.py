@@ -1,5 +1,6 @@
 """
 Write a function that takes a single "query string" (from a URL) and returns a list of tuples of name-value pairs.
+
 Example:
     "?name=Bob&age=99&day=Wed"
 should result in a return value of:

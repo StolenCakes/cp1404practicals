@@ -1,6 +1,7 @@
 """
 CP1404/CP5632 Practical
 Program to get numbers and display information about them.
+
 """
 
 def get_number():

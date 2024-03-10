@@ -25,6 +25,7 @@ Select those 6 lines and turn them into a new function with a good name.
 When naming functions, we can say,
 "This function will..." and the completion of that statement is usually a good name for the function.
 In this case, "This function will... print report". :)
+
 """
 
 def main():

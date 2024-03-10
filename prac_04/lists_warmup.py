@@ -1,6 +1,7 @@
 """
 CP1404/CP5632 - Practical
 Practice running things in lists
+
 Notes:
 The list always starts at [0]
 For [x:y], [ ] brackets will appear
@@ -8,6 +9,7 @@ For [x:y], [ ] brackets will appear
 [-x] for both of the above cases does the opposite causing the values to appear instead
 For [-x], the number will start from the back of the list
 Unless specified, the values in the list will not change its type (e.g. "3" will turn out as False, but not 3)
+
 """
 
 numbers = [3, 1, 4, 1, 5, 9, 2]

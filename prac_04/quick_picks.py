@@ -8,6 +8,7 @@ These values should be stored as CONSTANTS.
 Each line (quick pick) should not contain any repeated number.
 Each line of numbers should be displayed in sorted (ascending) order.
 Study the formatting below so that numbers align neatly.
+
 """
 
 import random

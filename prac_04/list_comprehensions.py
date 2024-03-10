@@ -1,6 +1,7 @@
 """
 CP1404/CP5632 Practical
 Program about List comprehensions
+
 """
 
 names = ["Bob", "Angel", "Jimi", "Alan", "Ada"]
