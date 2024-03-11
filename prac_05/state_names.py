@@ -26,8 +26,8 @@ print(CODE_TO_NAME)
 
 state_code = input("Enter short state: ").upper()  # Converts all input to uppercase in the program so that it works
 while state_code != "":
-    if state_code in CODE_TO_NAME:
+    try:
         print(f"{state_code} is {CODE_TO_NAME[state_code]}")  # Converted to display in string formatting
-    else:
+    except KeyError:
         print("Invalid short state")
     state_code = input("Enter short state: ").upper()
