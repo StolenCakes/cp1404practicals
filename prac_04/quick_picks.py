@@ -36,6 +36,6 @@ def display_quick_picks(quick_pick_count):
     """Function to display quick picks"""
     for i in range(quick_pick_count):
         quick_pick = generate_quick_pick()
-        print(quick_pick)
+        print(str("/".join(quick_pick)))
 
 main()
